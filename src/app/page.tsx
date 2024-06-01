@@ -13,7 +13,7 @@ export default function Home() {
         <br />
 
         <p>
-          Explore my portfolio to find out more about me and my passion for software development or view my <a href="/public/resume.pdf" className="text-mainAccent">resume</a>
+          Explore my portfolio to find out more about me and my passion for software development or view my <a href="resume.pdf" className="text-mainAccent" download="Teddy_Malhan_Resume.pdf">resume</a>
         </p>
       </div>
 
