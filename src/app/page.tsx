@@ -12,14 +12,14 @@ export default function Home() {
 
         <br />
 
-	<p>
-	Explore my portfolio to find out more about me and my passion for software development or view my <a href="/resume.pdf" className="text-mainAccent">resume</a>
-	</p>
+        <p>
+          Explore my portfolio to find out more about me and my passion for software development or view my <a href="/resume.pdf" className="text-mainAccent">resume</a>
+        </p>
       </div>
 
-	<div class="flex flex-row justify-center items-center text-mainAccent">
-	      <Links />
-	</div>
+      <div className="flex flex-row justify-center items-center text-mainAccent">
+        <Links />
+      </div>
     </div>
   );
 }
