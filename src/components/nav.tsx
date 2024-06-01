@@ -42,7 +42,6 @@ export default function Nav() {
           )
         })}
         <Avatar>
-          <AvatarImage src={teddy} />
           <AvatarFallback>TM</AvatarFallback>
         </Avatar>
       </nav>
