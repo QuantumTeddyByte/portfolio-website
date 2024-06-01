@@ -1,9 +1,13 @@
 import Links from "@/components/links";
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 
 export default function Home() {
   return (
     <div className="font-base">
+
+<div className="flex flex-row">
       <h1 className="text-2xl font-heading sm:text-4xl">Teddy <a className="text-mainAccent">Malhan</a></h1>
+</div>
       <p className="mt-2 text-lg sm:text-xl">Software Engineer</p>
       <div className="mt-8 text-base sm:text-lg">
         <p>

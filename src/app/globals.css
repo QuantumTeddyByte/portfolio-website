@@ -13,6 +13,10 @@ body {
 }
 
 body {
+  transform: scale(0.85);
+  transform-origin: top left;
+  width: 117.65%; /* Compensate for the scale to fit the whole width */
+  overflow-x: hidden; /* Hide horizontal scrollbar if appears */
   --sb-track-color: #ffffff;
   --sb-thumb-color: #000000;
 }
