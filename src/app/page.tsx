@@ -7,7 +7,7 @@ export default function Home() {
       <p className="mt-2 text-lg sm:text-xl">Software Engineer</p>
       <div className="mt-8 text-base sm:text-lg">
         <p>
-          Hi, my name is Teddy Malhan, software engineer based in Burnaby, BC.
+          Hi, my name is Teddy Malhan, and I'm a CS freshman at Simon Fraser University, BC, Canada.
         </p>
 
         <br />
