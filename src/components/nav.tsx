@@ -2,6 +2,8 @@
 
 import { Link } from 'next-view-transitions'
 import { usePathname } from 'next/navigation'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import teddy from "../../public/teddy.jpeg"
 import clsx from 'clsx'
 
 export default function Nav() {
@@ -30,8 +32,8 @@ export default function Nav() {
             <Link
               key={link.path}
               className={clsx(
-                'rounded-base border-2 px-2 py-1 transition-colors hover:border-black',
-                path === link.path ? 'border-black' : 'border-transparent',
+                'rounded-base border-2 px-2 py-1 transition-colors hover:border-black flex items-center',
+                path === link.path ? 'border-black bg-mainAccent text-bg' : 'border-transparent',
               )}
               href={link.path}
             >
@@ -39,6 +41,10 @@ export default function Nav() {
             </Link>
           )
         })}
+        <Avatar>
+          <AvatarImage src={teddy} />
+          <AvatarFallback>TM</AvatarFallback>
+        </Avatar>
       </nav>
     </div>
   )

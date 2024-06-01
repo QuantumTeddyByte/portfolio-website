@@ -10,10 +10,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: '#181926',
-        main: '#303446',
-        mainAccent: '#c6a0f6',
-	fg: '#cad3f5',
+        bg: '#282c34',
+        main: '#393f4a',
+        mainAccent: '#d19a66',
+	fg: '#abb2bf',
       },
       borderRadius: {
         base: '5px',

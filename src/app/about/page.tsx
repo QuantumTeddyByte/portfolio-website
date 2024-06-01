@@ -8,7 +8,7 @@ export default function About() {
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-	I&apos;m currently in my second semester during my first year at Simon Fraser University. I like to work on <a className="text-mainAccent">Rust, Golang</a> in my free time along with exploring <a className="text-mainAccent"> NodeJS modules and Javascript/Typescript frameworks</a>. Big time Linux Nerd.
+	I&apos;m in my second semester at <a className="text-mainAccent">Simon Fraser University, BC</a>. I like to work on computer science and software development projects in my free time and absolutely adore tinkering with <a className="text-mainAccent">Rust</a> and <a className="text-mainAccent">Golang</a>, not to mention I&apos;m always excited about new <a className="text-mainAccent">NodeJS modules and JavaScript/TypeScript frameworks.</a> And have I mentioned I use <a className="text-mainAccent">BSD</a>, by the way?
         </p>
       </div>
 

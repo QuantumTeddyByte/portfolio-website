@@ -17,6 +17,9 @@ import {
   SiRubyonrails,
   SiSass,
   SiTailwindcss,
+  SiDotnet,
+  SiRust,
+  SiGo
 } from '@icons-pack/react-simple-icons'
 
 const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
@@ -64,6 +67,18 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         {
           skill: 'docker',
           icon: SiDocker,
+        },
+        {
+          skill: '.net',
+          icon: SiDotnet,
+        },
+        {
+          skill: 'rust',
+          icon: SiRust,
+        },
+        {
+          skill: 'GoLang',
+          icon: SiGo,
         },
       ],
     },
