@@ -1,5 +1,4 @@
 import Links from "@/components/links";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Home() {
 	return (
