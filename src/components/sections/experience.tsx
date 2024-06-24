@@ -9,7 +9,7 @@ export default function Experience() {
         return (
           <div className="mb-8" key={id}>
             <h3 className="text-lg font-heading sm:text-xl">
-              {role.role} @ {role.company}
+              {role.role} at {role.company}
             </h3>
 
             <p className="mb-4 mt-0.5 text-sm text-mainAccent">
